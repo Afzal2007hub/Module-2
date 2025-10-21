@@ -9,14 +9,14 @@ To write a Python program to convert the number **16** into its **binary represe
 3. Print the result.
 
 ## 🧾 Program
-
+~~~
 a = 16
 
 binary_value = bin(a)
 
 
 print(binary_value)
-
+~~~
 
 ## Output
 ![alt text](image.png)
@@ -40,7 +40,7 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
-
+~~~
 def result(a, b):
     # Step 2: Compute the modulo using a % b
     modulo = a % b
@@ -54,7 +54,7 @@ b = int(input("Enter the second number (b): "))
 result(a, b)
 
 
-
+~~~
 ## Output
 ![alt text](image-1.png)
 
@@ -76,6 +76,7 @@ To write a Python program that defines a **lambda function** which takes two arg
 3. Call the function with the user inputs and print the result.
 
 ## 🧾 Program
+~~~
 a = int(input("Enter the first number (a): "))
 b = int(input("Enter the second number (b): "))
 
@@ -83,7 +84,7 @@ f = lambda a, b: a + b
 
 
 print("The sum is:", f(a, b))
-
+~~~
 
 ## Output
 ![alt text](image-2.png)
@@ -125,6 +126,7 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 ---
 
 ## 🧪 Program
+~~~
 import math  
 rows = int(input("Enter the number of rows for Pascal's Triangle: "))
 
@@ -138,7 +140,7 @@ for n in range(rows):
 
     
     print()
-
+~~~
 
 
 ## Sample Output
@@ -170,6 +172,7 @@ To write a Python program that checks whether a given number is a **palindrome**
    - Else, print that it is not a palindrome.
 
 ## 🧾 Program
+~~~
 num = int(input("Enter a number: "))
 
 temp = num
@@ -188,7 +191,7 @@ if rev == num:
 else:
     print(f"{num} is not a palindrome.")
 
-
+~~~
 ## Output
 ![alt text](image-4.png)
 
